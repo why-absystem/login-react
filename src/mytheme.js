@@ -3,6 +3,7 @@ import {
 	cyan500, cyan700,
 	pinkA200,
 	grey100, grey300, grey400, grey500,
+	lightBlue900,
 	white, darkBlack, fullBlack
 } from 'material-ui/styles/colors';
 import {fade} from 'material-ui/utils/colorManipulator';
@@ -12,7 +13,7 @@ const mytheme = getMuiTheme({
 	fontFamily: 'Roboto, sans-serif',
 	borderRadius: 2,
 	palette: {
-		primary1Color: pinkA200,
+		primary1Color: lightBlue900,
 		primary2Color: cyan700,
 		primary3Color: grey400,
 		accent1Color: pinkA200,
