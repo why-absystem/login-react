@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import {
 	cyan500, cyan700,
 	pinkA200,
@@ -10,7 +9,7 @@ import {fade} from 'material-ui/utils/colorManipulator';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const mytheme = getMuiTheme({
-	fontFamily: 'Roboto, sans-serif',
+	fontFamily: 'Quattrocento Sans, Oxygen, Roboto, sans-serif',
 	borderRadius: 2,
 	palette: {
 		primary1Color: lightBlue900,
@@ -27,7 +26,7 @@ const mytheme = getMuiTheme({
 		disabledColor: fade(darkBlack, 0.3),
 		pickerHeaderColor: cyan500,
 		clockCircleColor: fade(darkBlack, 0.07),
-		shadowColor: fullBlack,
+		shadowColor: fullBlack
 	}
 });
 
