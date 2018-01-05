@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import AppBar from 'material-ui/AppBar';
 
 export default class Myheader extends Component {
 	render() {
 		return (
-			<div>
-				<p>
-					Myheader
-				</p>
-			</div>
+			<AppBar
+				title="Title"
+				iconClassNameRight="muidocs-icon-navigation-expand-more"
+			/>
 		);
 	}
 }
